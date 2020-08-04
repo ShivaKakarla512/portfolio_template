@@ -1,7 +1,3 @@
-* {
-
-}
-
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -188,12 +184,58 @@ div a button:hover {
 }
 
 .high {
-  background-color: #09f;
+  background-color: rgba(255, 255, 255, 0.87) ;
   padding: 10px;
+  border-radius: 20px;
+}
+
+.high i {
+  color: black;
+}
+
+.high div h5 {
+  color: black;
 }
 
 .high:hover {
-  background-color: orange;
+  background-color: #09f;
+  transform: scale(1.05, 1.05);
+  transition-duration: .5s;
+}
+
+.high:hover i {
+  color: white;
+}
+
+.high:hover div h5 {
+  color: white;
+}
+
+.skill {
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 20px;
+}
+
+.skill:hover {
+  background-color: #09f;
+  transform: scale(1.05, 1.05);
+  transition-duration: .5s;
+}
+
+.skill:hover div h4 {
+  color: white;
+}
+
+.skill:hover div h5 {
+  color: white;
+}
+
+.skill:hover div p {
+  color: white;
+}
+
+.skill:hover div ul li {
+  color: white;
 }
 
 .centerImage {
@@ -269,8 +311,12 @@ form .submit:hover {
 }
 
 .cssi {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .gotgame {
@@ -442,14 +488,25 @@ form .submit:hover {
     padding-bottom: 50px;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   .button {
     padding-top: 170px;
     padding-right: 20px;
   }
 
   .cssi {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .gotgame {
