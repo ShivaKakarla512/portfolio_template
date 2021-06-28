@@ -1,3 +1,4 @@
-# My Portfolio Website
-http://shivakakarla.infinityfreeapp.com/
+# Responsive Portfolio Website Template
+
+https://shivakakarla512.github.io/portfolio_template/
 
